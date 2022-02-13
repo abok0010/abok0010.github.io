@@ -1,0 +1,47 @@
+body{
+   background-color: blanchedalmond;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 18px;
+
+}
+
+img{
+    max-width: 500px;
+    height: 500px;
+}
+
+
+h1,h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,footer{
+    background-color: azure;
+    margin-right: 1310px;
+}
+
+.site-title{
+    color: darkblue;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+
+}
+
+.square-bullet{
+    list-style-type: square;
+}
+li:nth-child(odd) {
+    background: lightcyan;
+}
+.stylize-nav {
+    text-decoration: none;
+    border-style: double;
+  background-color: lightsalmon;
+    border-color: white;
+    
+}
+a:hover {
+    color: red;
+}
