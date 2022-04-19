@@ -1,59 +1,58 @@
+/*keeps all the code in a Container */
 .wrapper{
 	max-width: 1200px;
 	font-family: 'Open Sans', sans-serif;
 }
 
+/*code will change when viewed at this screen size*/
+
 @media screen and (max-width: 760px){
+	/*top part of the page*/
 	.img0{
-		width: 50px;
+		width: 50px;											/*  This will take the image from the html and resize with those dimensions*/
 		height: 50px;
-		background-color: #c78c06;
 	}
+
 	nav .img0{
-		background-color: #c78c06;
+		background-color: #c78c06;							/* adds the orange behind the image*/
 		padding-right: 433px;
 		padding-bottom: 140px;
 	}
-	.top{
-			background-color: #c78c06;
-		border: none;
-		padding: 32px 216px;
- 		display: inline-block;
-	}
+
 	nav{
-		background-color: #222;
+		background-color: #222;		/*adds the black backgroudn*/
 	}
 	
 	ul{
 		text-align:center;
 	}
-	nav li{
+	nav li{										/* Aligns text and organizes text from the unordered list*/
 		margin-top: 20px;
 		color: #c78c06;
 	}
 	nav input{
 		width: 86%;
-		padding: 6px 10px;
+		padding: 6px 10px;					/*changes the size of the search bar*/
 	}
 	nav button{
 		
-		background-color: #222;
+		background-color: #222;			/*changes the size and colors of the search button*/
 		color: #c78c06;
 		border: 1px   solid #c78c06; 
 		padding: 7px 7px  ;
 	
 	}
-/*--------------------------------------------------------------------*/
+/*-----------------HOMEPAGE---------------------------------------------------*/
 
 	.homepage{
 		padding-top: 100px;
-		background-image: url("../images/main-banner.jpg");
+		background-image: url("../images/main-banner.jpg");	/*Uses image as the background for the page  */
 		height: 300px;
 		background-repeat: no-repeat;
 		margin-bottom: -40px;		
 	}
 	.homepage header{
-		margin-left: 15px;
+		margin-left: 15px;							/*moves the header over the transparent box and resizes as well*/
 		margin-top: 50px;
 		text-align: left;
 		font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +63,7 @@
 	
 	}
 	.homepage p{
-		position: absolute;
+		position: absolute;							/*moves the paragraph changes color and size*/
 		margin-top: 150px;
 		margin-left: 10px;
 		font-size: 15px;
@@ -73,7 +72,7 @@
 	}
 
 	.button1{
-		background-color: #c78c06;
+		background-color: #c78c06;				/*stylizes the button and positon on the page*/
 	
 		border: none;
 		color: #222;
@@ -87,23 +86,23 @@
 		margin-left: 3px;
 	}
 	.transbox {
-		
+										/*adds the transparent black box over the background image*/
 		margin-top:-80px ;
 		height: 300px;
 		background-color: #000000;
 		border:none;
 		opacity: 0.8;
   }
-/*--------------------------------------------------------------------*/
+/*---------About Page-----------------------------------------------------------*/
 
 
 	}
 	.about{
 		margin-top: 5px;
-		background-color:  #ffe6ac;
+		background-color:  #ffe6ac;		/*adds the page and color */
 		border: 10px solid #ffe6ac;
 	}
-	.about header{
+	.about header{					/* stylizes the header and changes the position it's in*/
 		color: #222;
 		font-size: 30px;
 		font-weight: bold;
@@ -112,19 +111,21 @@
 
 	}
 
-	.about p{
+	.about p{				/*changes paragraph size and position*/
 		font-size: 13px;
 		margin-bottom: 20px;
 	}
 	img{
-		width: 460px;
+		width: 460px;	/* width of the 1st image changes */
 		
 	}
 
 
 
-/*--------------------------------------------------------------------*/
-	.services header{
+/*-------------Services-------------------------------------------------------*/
+
+
+	.services header{						/*stylizes header and changes positon*/
 		margin-top: 10px;
 		color: #222;
 		font-size: 30px;
@@ -133,10 +134,10 @@
 		background-color: white;
 	}
 	.img2{
-		width:480px;
+		width:480px;		/*width of the 2nd image changes*/
 	}
 	
-	.head{
+	.head{						/*bolds the 2nd header of the sevices page and also changes size*/
 		margin-top: 10px;
 		margin-left: 5px;
 		font-weight: bold;
@@ -145,12 +146,12 @@
 
 
 	.services p{
-		margin-top: 10px;
+		margin-top: 10px;		/*paragraph position and size changes*/
 		margin-left: 5px;
 		margin-bottom: 20px;
 		font-size: 10px;
-	}
-	.button2{
+	}	
+	.button2{							/*stylizes button and placement on page*/
 		background-color: #222;
 		border: none;
 		color: white;
@@ -164,19 +165,19 @@
 	}
 
 	.services{
-		background-color: #ffe6ac;
+		background-color: #ffe6ac;	/*background color of the page */
 	}
-/***********************************************************************/
+/****************Marketing*******************************************************/
 .img3{
-	width: 480px;
+	width: 480px; /*changes 3rd image size*/
 }
 
-.marketing{
+.marketing{							/*changes the margin around the background color*/
 	margin-top: 10px;
 	background-color:#ffe6ac;
 }
 
-.marketing header {
+.marketing header {		/*Header stylized and size change*/
 	color: #222;
 	font-weight: bold;
 	font-size: 20px;
@@ -184,7 +185,7 @@
 	margin-left: 5px;
 }
 
-.marketing p {
+.marketing p {     			/* paragraph size and position change */
 	margin-top: 10px;
 	margin-left: 5px;
 	margin-bottom: 20px;
@@ -192,7 +193,7 @@
 }
 
 
-.button3{
+.button3{				  			/*stylizes button and placement on page*/
 	background-color: #222;
 	border: none;
 	color: white;
@@ -205,11 +206,11 @@
 }
 
 /*------------------------------------------------------------------------*/
-.img4{
+.img4{					/*changes 4th image size*/
 	width: 480px;
 }
 
-.video header{
+.video header{				/*Header stylized and size change*/
 	color: #222;
 	font-weight: bold;
 	font-size: 20px;
@@ -218,18 +219,18 @@
 }
 
 .video p{
-	margin-top: 10px;
+	margin-top: 10px;	/* paragraph size and position change */
 	margin-left: 5px;
 	margin-bottom: 20px;
 	font-size: 10px;
 }
 
 .video{
-	margin-top: 10px;
+	margin-top: 10px;				/*changes the margin around the background color*/
 	background-color: #ffe6ac;
 }
 .button4{
-	background-color: #222;
+	background-color: #222;	/*stylizes button and placement on page*/
 	border: none;
 	color: white;
 	text-align: center;
@@ -240,11 +241,11 @@
 	margin-left: 5px;
 }
 /*-----------------------------------------------------------------------*/
-.img5{
+.img5{						/*changes 5th image size*/
 	width: 480px;
 }
 
-.webdev header{
+.webdev header{				/*Header stylized and size change*/
 	color: #222;
 	font-weight: bold;
 	font-size: 20px;
@@ -253,18 +254,18 @@
 	
 }
 
-.webdev p{
+.webdev p{					/* paragraph size and position change */
 	margin-top: 10px;
 	margin-left: 5px;
 	margin-bottom: 20px;
 	font-size: 10px;	
 }
 
-.webdev{
+.webdev{						/*changes the margin around the background color*/
 	margin-top: 10px;
 	background-color: #ffe6ac;
 }
-.button5{
+.button5{							/*stylizes button and placement on page*/
 	background-color: #222;
 	border: none;
 	color: white;
@@ -277,12 +278,13 @@
 }
 
 /*----------------------------------------------------------------------*/
-.img6{
+
+.img6{					/*changes 6th image size*/
 	width: 480px;
 }
 
 
-.print header{
+.print header{			/*Header stylized and size change*/
 	color: #222;
 	font-weight: bold;
 	font-size: 20px;
@@ -290,7 +292,7 @@
 	margin-left: 5px;
 }
 
-.print p{
+.print p{				/* paragraph size and position change */
 	margin-top: 10px;
 	margin-left: 5px;
 	margin-bottom: 20px;
@@ -298,11 +300,11 @@
 
 }
 .print{
-	margin-top: 10px;
+	margin-top: 10px;					/*changes the margin around the background color*/
 	background-color: #ffe6ac;
 }
 .button6{
-	background-color: #222;
+	background-color: #222;			/*stylizes button and placement on page*/
 	border: none;
 	color: white;
 	text-align: center;
@@ -315,25 +317,25 @@
 }
 /*-------------------------------------------------------------------*/
 
-.vision{
+.vision{									/*Adds the vision image as the background */
 	background-image: url(../images/vision.jpg);
 	padding: 50px 10px;
 	margin-top: 10px;
 	
 }
 
-.vision header{
+.vision header{			/*Header stylized and size change*/
 	color: white;
 	font-weight: bold;
 	font-size: 50px;
 
 }
-.vision p{
+.vision p{			/* paragraph size and position change */
 	margin-top: 10px;
 	color: white;
 	font-size: 14px;
 }
-.button7{
+.button7{					/*stylizes button and placement on page*/
 	margin-top: 20px;
 	background-color:  black;
 	border:1px solid #c78c06;
@@ -346,7 +348,7 @@
 /*-------------------jOHN----------------------------------------------------*/
 
 
-.john header{
+.john header{						/*Header stylized and size change*/
 	margin-top: 10px;
 	color: #222;
 	font-size: 30px;
@@ -355,11 +357,11 @@
 	background-color: white;
 }
 
-.img8{
+.img8{ 					/*width of the 8th image changes*/
 	width: 483px ;
 }
 
-.john h1{
+.john h1{					/*all H1's inside the Class of John will change size and weight*/
 	color: #222;
 	font-weight: bold;
 	font-size: 20px;
@@ -367,20 +369,20 @@
 	margin-left: 2px;
 
 }
-.john h2{
+.john h2{					/*all H2's inside the Class of John will change size and weight*/
 	color: #222;
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 20px;
 	margin-top: 5px;
 	margin-left: 2px;
 }
 
 hr{
-	width: 430px;
+	width: 430px;					/*horizontal line changes in size */
 	border-top: solid #c78c06;
 }
 
-.john p{
+.john p{							/* paragraph size and position change */
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-bottom: 4px;
@@ -390,25 +392,26 @@ hr{
 }
 .john{
 	
-	background-color: #ffe6ac;		
+	background-color: #ffe6ac;		/*changes background color*/
 }
 
 
 /*------------------------	BOB -----------------------------------------------------*/
 
-.img9{
+.img9{				/*width of the 9th image changes*/
 	width: 483px
 }
 
 
 .bob h2{
-	color: #222;
+	color: #222;		/*all H2's inside the Class of bob will change size and weight*/
 	font-weight: bold;
 	font-size: 20px;
 	margin-top: 5px;
 	margin-left: 2px;
+	margin-right: 200px;
 }
-.bob h1{
+.bob h1{				/*all H1's inside the Class of bob will change size and weight*/
 	color: #222;
 	font-weight: bold;
 	font-size: 10px;
@@ -416,23 +419,23 @@ hr{
 	margin-left: 2px;
 }
 
-.bob hr{
+.bob hr{				/*horizontal line changes in size */
 	width: 430px;
 	border-top: solid #c78c06;
+	margin-right: 767px;
 }
-.bob p{
-
+.bob p{						/* paragraph size and position change */
 	margin-left: 5px;
-	font-size: 10px;
+	font-size: 20px;
 	padding-bottom: 5px;	
 }
 
 .bob{
-	background-color: #ffe6ac;	
+	background-color: #ffe6ac;		/*changes the margin around the background color*/
 	margin-bottom: 5px;	
 }
 /*-------------------------------------------------------------------------*/
-.contact h1{
+.contact h1{					/*changes h1 size and position*/
 	margin-left: 5px;
 	margin-top: 20px;
 	font-size: 40px;
@@ -440,7 +443,7 @@ hr{
 	margin-bottom: 15px;
 }
 
-.contact h2{
+.contact h2{					/*changes h2 size and position*/	
 	font-size: 30px;
 	font-weight: bold;
 	margin-left: 5px;
@@ -448,24 +451,24 @@ hr{
 	margin-top: 10px;
 }
 .contact label{
-	margin-left: 5px;
+	margin-left: 5px;			/*moves the text on the form*/
 }
 
-input{
+input{					/*changes the box sizes for the form*/
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 98%;
 	margin-left: 5px;
 }
 
-textarea{
+textarea{			/*changes the size of message area*/
 	width: 78%;
 	padding: 50px;
 	resize: none;
 	margin-left: 5px;
 }
 
-.button8{
+.button8{				/*stylizes button and placement */
 	background-color:  black;
 	border: none;
 	color: #c78c06;
@@ -477,28 +480,29 @@ textarea{
 	margin-bottom: 10px;
 }
 /*-------------------------------------------------------------------------------*/
-.hours h1{
+
+.hours h1{		/*changes h1 size and position*/
+	margin-left: 5px;
 	font-size: 30px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
-tr:nth-child(1)
-{
-  background-color:#ffe6ac;
+ tr:nth-child(1) {
+  background-color:#ffe6ac;	/*Adds color to the 1st boxes in the table*/
   color:#222;
 }
 table{
-	width:100%;
+	width:100%;					/*width of the table*/
 }
 .hours tr td{
-
+								
 	border: 1px solid;
 	padding: 5px;
 }
 
 /*------------------------------------------------------------------------------------*/
 
-.location h1{
+.location h1{			/*changes h1 size and position*/
 	font-size: 30px;
 	font-weight: bold;
 	margin-top: 10px;
@@ -506,15 +510,15 @@ table{
 }
 
 
-footer{
+footer{						/*stylizes the footer*/
 	height: 60px;
 	margin-top: 20px;
 	background-color: #222;
 	color: #c78c06;
 }
 
-@media screen and (min-width: 800px){
-
+@media screen and (min-width: 800px){  /*changes depending on screen size (desktop)*/
+/*repeats steps from the previous media query*/
 	.img0{
 		width: 90px;
 		height: 80px;
@@ -532,7 +536,7 @@ footer{
 	nav ul  {
 		list-style-type: none;
 		
-		overflow: hidden;
+		overflow: hidden;		/* Grid used to organize Nav Bar and moves all list items togther*/
 		margin-left: 200px;
 		margin-top: -60px;
 		margin-right: 200px;
@@ -816,11 +820,11 @@ footer{
 		margin-left: 5px;
 	}
 	
-	.menu{
+	.menu{					/*flex used to organzie our services page. It grab the 2 blocks in the menu container and puts them in a row*/
 		display: flex;
 		flex-direction: row;
 	}
-	.menu2 {
+	.menu2 {				/*grabs the remaining boxes inside menu 2 and puts them in a row*/
 		display: flex;
 		flex-direction: row;
 		margin-left: 10px;
@@ -856,8 +860,9 @@ footer{
 	}
 	.bob{
 		float: left;
-		margin-bottom: 20px;
-	}
+		margin-bottom: 20px;	
+	}	
+
 	.bob h2{
 		font-size: 30px;
 		margin-left: 10px;
@@ -877,16 +882,17 @@ footer{
 	
 	position: absolute;
 	margin-left: 200px;
-	width: 200px;
-	height: 700px;
+	width:200px;
+	height:700px;
 	margin-left: 590px;
-	margin-top: -600px;
+	margin-top:-600px;
 	
 
 }
 .hours h1{
 	font-size: 30px;
-	font-weight: bold;
-	margin-top: 900px;	
+	font-weight:bold;
+	margin-top:900px;	
 }
 
+}
